@@ -1,5 +1,5 @@
 * { 
-   text-align: center;
+    text-align: center;
 }
 .container { 
     height: 768px; 
@@ -73,15 +73,17 @@ margin-bottom: 10px;
 width: calc(30% - 10px);
 padding-left: calc(5%);
 }
-.section {
-    display: flex;
-}
 .article {
 margin: 0 auto;
 margin-top: 50px;
 height: calc(70%); 
 width: calc(100%);
 color: whitesmoke;
-font-family: verdana;
+font-family: 'Courier New';
 background-color: grey;
+}
+.article p {
+position: relative;
+text-align: center;
+top: 50%;
 }
